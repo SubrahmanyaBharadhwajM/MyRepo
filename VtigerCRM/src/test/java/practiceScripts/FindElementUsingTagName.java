@@ -16,8 +16,7 @@ public class FindElementUsingTagName
 		driver.manage().window().maximize();
 		driver.get("https:/www.amazon.com");
 		driver.findElement(By.tagName("a"));
-		
-		
+		//End of test
 			
 	}
 }
