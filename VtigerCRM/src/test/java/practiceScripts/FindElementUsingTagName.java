@@ -10,6 +10,7 @@ public class FindElementUsingTagName
 {
 	public static void main(String[] args)
 	{
+		//welcome to ammazon
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
